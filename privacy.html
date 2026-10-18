@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evidia Privacy Policy</title>
+<meta name="description" content="How the Evidia iOS app collects, uses and protects your information.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --canvas: #f7f4ef; --surface: #ffffff; --recessed: #edeae5;
+    --fg: #1a1a1a; --muted: #6f6a65; --accent-text: #7a6550; --rule: #e7e6e5;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--canvas); color: var(--fg);
+    font: 16px/1.65 Manrope, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 80px; }
+  .mark { font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; font-size: 12px; color: var(--accent-text); }
+  h1 { font-size: 36px; line-height: 1.15; letter-spacing: -0.02em; margin: 12px 0 8px; font-weight: 800; }
+  .meta { color: var(--muted); font-size: 14px; margin: 0 0 32px; }
+  h2 { font-size: 20px; margin: 40px 0 8px; font-weight: 700; letter-spacing: -0.01em; }
+  h3 { font-size: 16px; margin: 24px 0 4px; font-weight: 700; }
+  p, li { margin: 0 0 12px; }
+  ul { padding-left: 20px; margin: 0 0 12px; }
+  a { color: var(--accent-text); }
+  .summary { background: var(--surface); border-radius: 12px; padding: 20px; margin: 0 0 8px; }
+  .summary ul { margin: 0; }
+  table { width: 100%; border-collapse: collapse; background: var(--surface); border-radius: 12px; overflow: hidden; font-size: 14px; }
+  th, td { text-align: left; vertical-align: top; padding: 12px; border-bottom: 1px solid var(--rule); }
+  th { background: var(--recessed); font-weight: 700; }
+  tr:last-child td { border-bottom: 0; }
+  .table-wrap { overflow-x: auto; margin: 0 0 12px; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">Evidia</div>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective 18 October 2026</p>
+
+  <div class="summary">
+    <ul>
+      <li>We store only what your account needs: your email, an optional display name, your watchlist and the holdings you enter.</li>
+      <li>Your market-data and AI API keys stay on your device. Requests that use them go straight from your device to the provider you chose; they do not pass through Evidia.</li>
+      <li>No advertising, no tracking, no analytics, and we never sell your data.</li>
+      <li>You can delete your account and all of its data from inside the app at any time.</li>
+    </ul>
+  </div>
+
+  <h2>Who we are</h2>
+  <p>Evidia is an iOS app that helps you research stocks. In this policy, “Evidia”, “we” and “us” mean the developer of the Evidia app. If you have a question about this policy or your data, contact us at <a href="mailto:riadh@umich.edu">riadh@umich.edu</a>.</p>
+
+  <h2>What we collect and why</h2>
+
+  <h3>Account information</h3>
+  <p>When you create an account we store your email address, the sign-in method you used (email, Apple or Google), when the account was created, and a display name if you provide one. If you sign in with Apple you can choose to hide your email, in which case we receive a private relay address from Apple instead. If you sign in with Apple or Google, that service shares your name and email with us, and Google may also share a profile picture link. We use this information only to run your account: to sign you in, keep your data separate from everyone else’s, and send account emails such as confirmation and password-reset links.</p>
+
+  <h3>Your watchlist and holdings</h3>
+  <p>The stocks you save to your watchlist, their order, and the holdings you type in (ticker, number of shares, average cost) are stored with your account so they are available when you sign in. Evidia does not connect to any brokerage account and cannot place trades.</p>
+
+  <h3>Information that stays on your device</h3>
+  <ul>
+    <li><strong>Market-data API key</strong> (Finnhub or Twelve Data) and <strong>AI API key</strong> (Anthropic, OpenAI or Google), stored encrypted in your device’s Keychain and excluded from backups. They are never sent to Evidia.</li>
+    <li><strong>Recently viewed stocks</strong>, used for the Search screen. Cleared when you sign out or delete your account.</li>
+    <li><strong>Cached market data</strong>, such as prices and company figures, kept to reduce how often the app calls your provider.</li>
+  </ul>
+
+  <h3>What we do not collect</h3>
+  <p>We do not collect your location, contacts, photos, browsing history, advertising identifiers or device identifiers. The app contains no advertising, analytics or tracking software, and we do not track you across other companies’ apps or websites.</p>
+
+  <h2>Services your device talks to directly</h2>
+  <p>Some features send requests from your device straight to a third-party service, using a key you provided. These services receive your device’s IP address and the content of the request, and handle it under their own privacy policies.</p>
+  <div class="table-wrap">
+  <table>
+    <tr><th>Service</th><th>When</th><th>What it receives</th></tr>
+    <tr><td>Your market-data provider (<a href="https://finnhub.io/privacy-policy">Finnhub</a> or <a href="https://twelvedata.com/privacy">Twelve Data</a>)</td><td>Whenever the app shows prices, scores or company data</td><td>Your API key and the stock symbols being looked up</td></tr>
+    <tr><td>Your AI provider (<a href="https://www.anthropic.com/legal/privacy">Anthropic</a>, <a href="https://openai.com/policies/privacy-policy">OpenAI</a> or <a href="https://policies.google.com/privacy">Google</a>)</td><td>Only when you tap “Get AI analysis”</td><td>Your API key, plus the stock’s market data and recent news headlines and summaries. No account details.</td></tr>
+    <tr><td><a href="https://www.apple.com/legal/privacy/">Apple</a> or <a href="https://policies.google.com/privacy">Google</a></td><td>Only when you choose to sign in with them</td><td>What you authorize on their sign-in screen</td></tr>
+  </table>
+  </div>
+  <p>Links to sources, such as news articles and SEC filings, open in your browser. The websites you visit see that visit as they would any other.</p>
+
+  <h2>Service providers</h2>
+  <p>Accounts, watchlists and holdings are stored by <a href="https://supabase.com/privacy">Supabase</a>, which provides our database and sign-in service, and account emails are sent through it or an email delivery service it uses. These providers process data only on our behalf, to run Evidia. We do not sell, rent or share your personal information with anyone for their own purposes, including advertising.</p>
+
+  <h2>How your data is protected</h2>
+  <ul>
+    <li>All traffic is encrypted in transit (HTTPS/TLS).</li>
+    <li>Database access rules mean a signed-in user can read and change only their own data.</li>
+    <li>Sign-in sessions and API keys are stored in the iOS Keychain, not in ordinary app storage.</li>
+  </ul>
+  <p>No system is perfectly secure, but we design Evidia to keep as little data as possible and to protect what it keeps.</p>
+
+  <h2>How long we keep data</h2>
+  <p>We keep your account information, watchlist and holdings until you delete them or delete your account. When you delete your account they are removed from our database immediately; copies may remain in our providers’ encrypted backups for a short period before those backups expire.</p>
+
+  <h2>Your choices and rights</h2>
+  <ul>
+    <li><strong>Delete your account:</strong> Portfolio → Delete account. This permanently deletes your account, watchlist and holdings, and removes your API keys from the device.</li>
+    <li><strong>Edit or remove data:</strong> change your watchlist and holdings in the app at any time.</li>
+    <li><strong>Remove an API key:</strong> change or disconnect it from Portfolio.</li>
+    <li><strong>Access or other requests:</strong> email <a href="mailto:riadh@umich.edu">riadh@umich.edu</a>. Depending on where you live (for example under the GDPR in the EU and UK, or the CCPA in California), you may have rights to access, correct, delete or port your data, or to object to certain processing. We will respond within the time the law requires and will not treat you differently for using these rights.</li>
+  </ul>
+
+  <h2>Legal bases (EU and UK users)</h2>
+  <p>We process account information, watchlists and holdings to provide the service you asked for (performance of a contract), and send account emails for the same reason. Where we rely on your choices, such as signing in with Apple or Google or requesting an AI analysis, you can withdraw by not using that feature.</p>
+
+  <h2>Children</h2>
+  <p>Evidia is not intended for anyone under 18, and we do not knowingly collect information from children. If you believe a child has created an account, contact us and we will delete it.</p>
+
+  <h2>International transfers</h2>
+  <p>Our service providers may process data in countries other than yours, including the United States. Where required, transfers rely on appropriate safeguards such as standard contractual clauses.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If we change this policy we will update the effective date above, and for significant changes we will tell you in the app before they take effect.</p>
+
+  <footer>Evidia provides analysis and decision support, not financial advice. Contact: <a href="mailto:riadh@umich.edu">riadh@umich.edu</a></footer>
+</main>
+</body>
+</html>
